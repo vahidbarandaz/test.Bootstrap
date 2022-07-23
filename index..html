@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>test.bootstrap</title>
+</head>
+
+<body>
+    <header>
+  
+    <nav class="navbar navbar-expand-lg navbar-light container-fluid sticky-top bg-white p-3 shadow"
+      style="--bs-bg-opacity: 0.95">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#">Dramatically Engage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-4" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#2">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#5">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#6">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#7">Questions</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+  
+  
+            <button type="button" class="btn btn-success p-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Login
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Login form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="/action_page.php" class="was-validated">
+                      <div class="mb-3 mt-3">
+                        <label for="uname" class="form-label">Username:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                          required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="pwd" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
+                          required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                      </div>
+                      <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                        <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Check this checkbox to continue.</div>
+                      </div>
+                      <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    
+  
+    <!-- </div>   -->
+    <section id="1" class="py-4 container">
+      <div class="row">
+        <div class="col-md my-auto">
+          <h2 class="display-4">Completely <span style="color: rgb(67, 133, 249);">synergize</span> resourse taxing
+            relationships</h2>
+          <p class="lead text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
+            delectus! Tempore harum deserunt veritatis facere nisi aperiam eligendi voluptas eveniet tempora temporibus,
+            sit laborum, itaque odio animi numquam, similique doloremque?</p>
+          <div class="text-center text-md-start"></div>
+          <a href="#" class="btn btn-warning text">Get started</a>
+        </div>
+        <div class="col-md">
+          <img src="assets/Cross-platform software-panam.png" alt="desck pic" class="imd-fluid my-auto d-block w-100">
+        </div>
+      </div>
+    </section>
+
+    <section id="2" class="pt-5">
+      <div style="background-color:rgb(233, 242, 245)">
+        <div class="container pb-4">
+          <h2 class="display-6 text-center pt-3">Features</h2>
+          <p class="text-center fluid text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rerum
+            iusto itaque,
+            sapiente non dicta nesciunt velit laboriosam consequuntur ipsa odio enim eius.
+            Magnam porro doloribus error? Dicta, explicabo laboriosam.</p>
+          <div class="row p-4 text-center g-4 my-4 pb-4">
+            <div class="col-xl-4 col-md-6">
+              <div class="card p-5 ">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                    class="bi bi-reception-4 mb-4 iconcolor" viewBox="0 0 16 16">
+                    <path
+                      d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+                  </svg>
+                  <h5 class="card-title">Powerful</h5>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="card p-5 ">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                    class="bi bi-reception-4 mb-4 iconcolor" viewBox="0 0 16 16">
+                    <path
+                      d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z" />
+                  </svg>
+                  <h5 class="card-title">Growth</h5>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="card p-5 ">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                    class="bi bi-reception-4 mb-4 iconcolor" viewBox="0 0 16 16">
+                    <path d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8.5v3a1.5 1.5 0 0 1 1.5 1.5h5.5a.5.5 0 0 1 0 1H10A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5H.5a.5.5 0 0 1 0-1H6A1.5 1.5 0 0 1 7.5 10V7H2a2 2 0 0 1-2-2V4zm1 0v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1zm6 7.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5z" />
+                  </svg>
+                  <h5 class="card-title">Network</h5>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="card p-5 ">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                    class="bi bi-reception-4 mb-4 iconcolor" viewBox="0 0 16 16">
+                    <path
+                      d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z" />
+                    <path
+                      d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z" />
+                    <path
+                      d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z" />
+                  </svg>
+                  <h5 class="card-title">Server</h5>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="card p-5 ">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                    class="bi bi-reception-4 mb-4 iconcolor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z" />
+                    <path
+                      d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                  </svg>
+                  <h5 class="card-title">Cloud</h5>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="card p-5 ">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                    class="bi bi-reception-4 mb-4 iconcolor" viewBox="0 0 16 16">
+                    <path
+                      d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                    <path
+                      d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                  </svg>
+                  <h5 class="card-title">Download</h5>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+    <section id="3">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md my-auto">
+            <h2 class="display-4">Be <span style="color: #70bc4f;">fast</span> and <span
+                style="color: #70bc4f;">reactive</span></h2>
+            <p class="lead text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
+              delectus! Tempore harum deserunt veritatis facere nisi aperiam eligendi voluptas eveniet tempora
+              temporibus,
+              sit laborum, itaque odio animi numquam, similique doloremque?</p>
+            <div class="text-center text-md-start"></div>
+            <a href="#" class="btn btn-warning text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+              Read more
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="assets/1280px-Node.js_logo.svg.png" alt="nodejspic" class="imd-fluid my-auto d-block w-100">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="4" style="background-color: rgb(21, 19, 19);">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md">
+            <img src="assets/_24_react-logo-png_js-react-js-logo-react-react-native-icon-free-download.png"
+              alt="nodejspic" class="imd-fluid my-auto d-block w-100">
+          </div>
+          <div class="col-md my-auto">
+            <h2 class="display-4 text-white">Suitable for <span class="text-warning">big projects</span></h2>
+            <p class="lead text-white-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
+              delectus! Tempore harum deserunt veritatis facere nisi aperiam eligendi voluptas eveniet tempora
+              temporibus,
+              sit laborum, itaque odio animi numquam, similique doloremque?</p>
+            <div class="text-center text-md-start"></div>
+            <a href="#" class="btn btn-warning text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+              Read more
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="5" class="pt-5">
+      <div class="container mt-4">
+        <h2 class="text-center display-4 pt-3">Recent posts from our blog</h2>
+        <p class="text-center fluid text-muted pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+          reiciendis natus beatae officiis qui, perspiciatis nisi sunt molestiae labore, vel ad quod excepturi quas
+          laborum accusamus aut consequatur eveniet incidunt.</p>
+        <div class="row py-4">
+          <div class="col-md">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="assets/team3.jpg" class="card-img-top" alt="team3">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="assets/team2.jpg" class="card-img-top" alt="team2">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="assets/team1.jpg" class="card-img-top" alt="team1">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This card has even longer content than the first to show that equal height
+                      action.</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="6" class="pt-2">
+      <div class="container my-4">
+        <h2 class="text-center display-3 pt-5">Our Team</h2>
+        <p class="text-center fluid text-muted pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+          reiciendis natus beatae officiis qui, perspiciatis nisi sunt molestiae labore, vel ad quod excepturi quas
+          laborum accusamus aut consequatur eveniet incidunt.</p>
+        <div class="row">
+          <div class="col-lg text-center">
+            <img src="assets/member4.jpg" class="img-fluid border p-2 rounded-circle w-75" alt="member3">
+            <h2>Deco smith</h2>
+            <p class="text-muted">founder</p>
+            <ul class="align-items-center text-muted d-flex list-unstyled justify-content-center ">
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                  </svg></a>
+              </li>
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                  </svg></a>
+              </li>
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                  </svg></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg text-center">
+            <img src="assets/member2.avif" class="img-fluid border p-2 rounded-circle w-75" alt="member3">
+            <h2>Liza Marko</h2>
+            <p class="text-muted">Developer</p>
+            <ul class="align-items-center text-muted d-flex list-unstyled justify-content-center ">
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                  </svg></a>
+              </li>
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                  </svg></a>
+              </li>
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                  </svg></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg text-center">
+            <img src="assets/member1.avif" class="img-fluid border p-2 rounded-circle w-75" alt="member3">
+            <h2>Amion Doe</h2>
+            <p class="text-muted">Designer</p>
+            <ul class="align-items-center text-muted d-flex list-unstyled justify-content-center ">
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                  </svg></a>
+              </li>
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                  </svg></a>
+              </li>
+              <li>
+                <a href="#" class="text-muted p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                  </svg></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="7" class="pt-6">
+      <div style="background-color:rgb(233, 242, 245)">
+        <div class="container pb-4">
+          <h2 class="display-6 text-center pt-2">Frequently asked questions</h2>
+          <p class="text-center fluid text-muted ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum rerum
+            iusto itaque,
+            sapiente non dicta nesciunt velit laboriosam consequuntur ipsa odio enim eius.
+            Magnam porro doloribus error? Dicta, explicabo laboriosam.</p>
+
+          <div id="carouselExampleIndicators" class="carousel slide mt" data-bs-ride="carousel">
+            <div class="carousel-indicators align-text-bottom">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1" style="background-color: #000;"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2" style="background-color: #000;"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3" style="background-color: #000;"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md">
+                    <img src="assets/Questions-cuate.png" class="d-block w-100 text-end mx-4" alt="questions">
+                  </div>
+                  <div class="col-md">
+                    <div class="text my-auto">
+                      <h2>Whats your job ?</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reprehenderit fugit aliquid
+                        recusandae tempore harum aperiam.
+                        Quo quam sequi minus obcaecati repellendus illo ducimus recusandae tempore harum aperiam.recusandae tempore harum aperiam.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md">
+                    <img src="assets/Thinking face-cuate.png" class="d-block w-100 text-end mx-4" alt="...">
+                  </div>
+                  <div class="col-md">
+                    <div class="text my-auto">
+                      <h2>Whats your mission?</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reprehenderit fugit aliquid
+                        recusandae tempore harum aperiam.
+                        Quo quam sequi minus obcaecati repellendus illo ducimus recusandae tempore .</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md">
+                    <img src="assets/Customer Survey-amico.png" class="d-block w-100 text-end mx-4" alt="...">
+                  </div>
+                  <div class="col-md">
+                    <div class="text my-auto">
+                      <h2>Where are your company ?</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reprehenderit fugit aliquid
+                        recusandae tempore harum aperiam.
+                        Quo quam sequi minus obcaecati repellendus illo ducimus recusandae tempore .</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- upbutton --> 
+      <div class="bg-primery d-inline  text-align-center text-center " >
+        <a href="#" class="bg-warning rounded-circle text-dark position-fixed bottom-0 end-0 me-3 mb-3 opacity-75 " style="height:4em ; width:4em;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="56" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+        </svg></a>
+      </div>
+      <!-- ////// -->
+    <section id="8" class="p-3  bg-dark text-white">
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-md-3">
+            <h2>Web developer!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, expedita. Qui quis adipisci iure cum, quia ab! Impedit laborum esse accusamus eaque, repellendus nulla, quaerat ipsam officiis mollitia laudantium labore.</p>
+          </div>
+          <div class="col-md-3">
+            <h3 class="border-start border-warning border-4 ps-2">Pages</h3>
+            <ul class="list-unstyled">
+              <li>vue js</li>
+              <li>node js</li>
+              <li>Our team</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="border-start border-warning border-4 ps-2">More</h3>
+            <ul class="list-unstyled">
+              <li>vue js</li>
+              <li>node js</li>
+              <li>Our team</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="border-start border-warning border-4 ps-2">Posts</h3>
+            <ul class="list-unstyled">
+              <li>vue js</li>
+              <li>node js</li>
+              <li>Our team</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+         <hr>
+         <div class="text-center text-muted">
+          <p class="footer"> &copy; Copyright 2021 Space Dynamic Co.All Rights Reserved.
+            <br>Desigen:TemplateMo</span> </p>
+         </div>
+        </div>
+      </footer>
+    </section>
+
+   
+  </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

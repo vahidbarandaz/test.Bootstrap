@@ -1,0 +1,26 @@
+
+.zindex{
+    z-index: 1 !important;
+}
+.modal-backdrop.show {
+    opacity: .5;
+    z-index: 0;
+}
+.iconcolor{
+    color: rgb(67, 133, 249);
+}
+.dark{
+    background-color: black !important;
+}
+
+.text{
+    text-align: justify;
+    
+}
+.button{
+    height: 2em;
+    width: 2em;
+}
+a{
+    text-decoration: none !important;
+}
